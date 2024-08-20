@@ -1,12 +1,9 @@
 package bankaccountapp;
 
 public class Checking extends Account {
-
-    //List specific properties to Checking account
     private int debitCardNumber;
     private int debitCardPin;
 
-    //Constructor to initialize checking account properties
     public Checking (String name, String Ssn, double initDeposit){
         super(name, Ssn, initDeposit);
         accountNumber = "2" + accountNumber;
@@ -21,6 +18,7 @@ public class Checking extends Account {
         debitCardNumber = (int)(Math.random() * Math.pow(10, 12));
         debitCardPin = (int)(Math.random() * Math.pow(10, 4));
     }
+    
     //Overriding showInfo to specify the type of account
     public void showInfo(){
         super.showInfo();
@@ -31,7 +29,4 @@ public class Checking extends Account {
         );
         super.printBalance();
     }
-
-
-    //List methods specific to checking account
 }
