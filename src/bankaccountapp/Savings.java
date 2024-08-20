@@ -1,11 +1,10 @@
 package bankaccountapp;
 
 public class Savings extends Account {
-    //List specific properties to Savings account
     private int safetyDepositBoxID;
     private int safetyDepositBoxKey;
 
-    //Constructor to initialize Savings account properties
+    //Constructor
     public Savings(String name, String Ssn, double initDeposit){
         super(name, Ssn, initDeposit);
         accountNumber = "1" + accountNumber;
@@ -14,7 +13,6 @@ public class Savings extends Account {
 
     public void setRate(){
         rate = getBaseRate() - .25;
-
     }
 
     private void setSafetyDepositBox(){
@@ -32,7 +30,4 @@ public class Savings extends Account {
         );
         super.printBalance();
     }
-
-
-    //List methods specific to Savings account
 }
