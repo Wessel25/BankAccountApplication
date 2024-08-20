@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1bc8dde-2e1d-4d6c-9ad6-d4ad6536e81a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bank Application.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bankaccountapp/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bankaccountapp/BankAccountApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bankaccountapp/Checking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bankaccountapp/IBaseRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bankaccountapp/Savings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilities/CSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankaccountapp/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankaccountapp/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankaccountapp/BankAccountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankaccountapp/BankAccountApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankaccountapp/Checking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankaccountapp/Checking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankaccountapp/IBaseRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankaccountapp/IBaseRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bankaccountapp/Savings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankaccountapp/Savings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,25 +28,47 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Wessel25"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Wessel25/BankAccountApplication.git",
+    "accountId": "906f0dfa-cd4b-4648-9507-23683fe3bd02"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2knFiVSw2Plsbbfwn0cc6YzFZLV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BankAccountApp.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BankAccountApp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/OneDrive/Desktop/BankAccountApplication/BankAccountApplication&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="BankAccountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bankaccountapp.BankAccountApp" />
@@ -80,5 +99,16 @@
       <updated>1723911561821</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
