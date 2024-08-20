@@ -3,8 +3,7 @@ package bankaccountapp;
 import javax.net.ssl.SSLSessionBindingEvent;
 
 public abstract class Account implements IBaseRate{
-
-    //List common properties for savings and checking accounts
+    //Common properties for savings and checking accounts
     private String name;
     private String Ssn;
     private double balance;
@@ -12,7 +11,7 @@ public abstract class Account implements IBaseRate{
     protected String accountNumber;
     protected double rate;
 
-    //Constructor to SET base properties and initialize account
+    //Constructor
     public Account (String name, String Ssn, double initDeposit){
        this.name = name;
        this.Ssn = Ssn;
@@ -22,7 +21,6 @@ public abstract class Account implements IBaseRate{
         this.accountNumber = setAccountNumber();
         //Get Base Rate
         setRate();
-
     }
 
     private String setAccountNumber(){
@@ -38,7 +36,6 @@ public abstract class Account implements IBaseRate{
                 "\nAccount Number: " + accountNumber +
                 "\nBalance: R" + balance +
                 "\nRate: " + rate + "%");
-
     }
 
     public abstract void setRate();
